@@ -1,0 +1,408 @@
+body 
+{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-y: auto;
+	background-color: #010102;
+}
+
+header 
+{
+	background-color: #0c062e;
+	color: #f31919;
+	text-align: center;
+	padding: 20px;
+	font-size: 22px;
+}
+
+nav 
+{
+	background-color: #23143c;
+	overflow: hidden;
+}
+
+nav ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav li 
+{
+	float: left;
+}
+
+nav a 
+{
+	display: block;
+	color: #67b3b5;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	background-color: #010102;
+	color: #56dff5;
+	font-size: 17px;
+}
+
+.active
+{
+	background-color: #010102;
+}
+
+main 
+{
+	padding: 20px;
+	text-align: center;
+}
+
+.Scroll1 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 36px;
+  color: #000;
+  position: relative;
+}
+
+.Scroll15 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 36px;
+  color: #000;
+  position: relative;
+}
+
+.Scroll2 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  color: #67b3b5;
+  position: relative;
+}
+
+.Scroll3 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  color: #000;
+  position: relative;
+}
+
+.Scroll4 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  color: #000;
+  position: relative;
+}
+
+.Scroll1:before 
+{
+	content: "|----";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #9261e8;
+	animation: scrolling-text1 11s linear infinite;
+}
+
+.Scroll15:before 
+{
+	content: "Welcome to Arcade";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #f31919;
+	animation: scrolling-text1 9s linear infinite;
+}
+
+.Scroll2:before 
+{
+	content: "----------|";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #67b3b5;
+	animation: scrolling-text2 7s linear infinite;
+}
+
+.Scroll3:before 
+{
+	content: "|------------------";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #f31919;
+	animation: scrolling-text1 4s linear infinite;
+}
+
+.Scroll4:before 
+{
+	content: "----------|";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #de961b;
+	animation: scrolling-text2 6s linear infinite;
+}
+
+@keyframes scrolling-text1 {
+  0% { left: 100%; }
+  100% { left: -100%; }
+}
+
+@keyframes scrolling-text2 {
+  0% { transform: translateX(-200%); }
+  100% { transform: translateX(100%); }
+}
+
+#hide
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.game-container 
+{
+	margin-top:30px;
+	margin-bottom:50px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.game-card 
+{
+	background-color:#100c17;
+	border: 1px solid #5e2eb3;
+	box-shadow: 2px 2px #9261e8;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+	height:400px;
+	text-align: center;
+}
+
+.game-card img 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 220px; */
+}
+
+.GTitle
+{
+	color:#f31919;
+}
+.GDis
+{
+	color:#67b3b5;
+}
+
+
+.button 
+{
+	background-color: #de961b;
+	border: none;
+	color: #9261e8;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.button:hover 
+{
+	background-color: #fff;
+	color:#100c17;
+}
+
+footer 
+{
+	background-color: #0c062e;
+	color: #67b3b5;
+	text-align: center;
+	padding: 20px;
+	bottom: 0;
+	width: 100%;
+}
+
+/* --------------------------------------------------------------------------- */
+/* A B O U T */
+
+..Emote1 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 36px;
+  color: #000;
+  position: relative;
+}
+
+.Emote15 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 36px;
+  color: #000;
+  position: relative;
+}
+
+.Emote2 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  color: #000;
+  position: relative;
+}
+
+.Emote3 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  color: #000;
+  position: relative;
+}
+
+.Emote4 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  color: #000;
+  position: relative;
+}
+
+.Emote1:before 
+{
+	content: "-";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	animation: scrolling-text1 15s linear infinite;
+}
+
+.Emote15:before 
+{
+	content: "( $ _ $ )";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #f31919;
+	animation: scrolling-text1 12s linear infinite;
+}
+
+.Emote2:before 
+{
+	content:"-----";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #67b3b5;
+	animation: scrolling-text2 11s linear infinite;
+}
+
+.Emote3:before 
+{
+	content: "－O－";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #f31919;
+	animation: scrolling-text1 9s linear infinite;
+}
+
+.Emote4:before 
+{
+	content: "`(*>﹏<*)′";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	color: #de961b;
+	animation: scrolling-text2 7s linear infinite;
+}
+
+.game-container2 
+{
+	margin-top:30px;
+	margin-bottom:50px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width:500p;
+	
+}
+
+.game-card2
+{
+	background-color:#100c17;
+	border: 1px solid #5e2eb3;
+	box-shadow: 2px 2px #9261e8;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+	height:150px;
+	text-align: center;
+}
+
+.MainAligned
+{
+	text-align: center;
+	padding: 20px;
+	color:#f31919;
+}
+
+.aligned
+{
+	text-align: left;
+	padding: 20px;
+	color:#67b3b5;
+}
+
+
