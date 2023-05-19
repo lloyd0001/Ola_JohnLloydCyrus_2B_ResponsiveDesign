@@ -5,6 +5,8 @@ body
 	padding: 0;
 	overflow-y: auto;
 	background-color: #010102;
+	max-width: 100%;
+	min-width: 30%;
 }
 
 header 
@@ -81,10 +83,10 @@ main
 
 .Scroll2 {
   overflow: hidden;
-  white-space: nowrap;
   font-size: 28px;
   color: #67b3b5;
   position: relative;
+  overflow-wrap: break-word;
 }
 
 .Scroll3 {
@@ -142,6 +144,8 @@ main
 	height: 100%;
 	color: #67b3b5;
 	animation: scrolling-text2 7s linear infinite;
+	
+}
 }
 
 .Scroll3:before 
